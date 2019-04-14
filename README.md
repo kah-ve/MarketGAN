@@ -19,7 +19,7 @@ Using 30 company stocks based on highest market cap as I initially planned turne
 
 #### Future Work
 
-I've barely scratched the surface with what we can do with GANs. This has mostly been setting up the framework and data pipeline. There can be a lot of improvement in terms of the type of layers and the depth of the layers I'm are using. I can look at different indicators to include in the training (instead of just the open, close, and volume of each stock), different parameters to train against, different selections of stocks. If I continue to apply the GAN in this field, my main goal next semester is to build it using recurrent neural networks for both the generator and discriminator. Also I want to look into the method of adversarial feature learning which is what's being used currently, and see if I can find a different way to make predictions. 
+I've barely scratched the surface with what is possible with GANs. This has mostly been setting up the framework and data pipeline. There can be a lot of improvement in terms of the type of layers and the depth of the layers that are used. I can look at different indicators to include in the training (instead of just the open, close, and volume of each stock), different parameters to train against, different selections of stocks. If I continue to apply the GAN in this field, my main goal next semester is to build it using recurrent neural networks for both the generator and discriminator. Also I want to look into the method of adversarial feature learning which is what's being used currently, and see if I can find a different way to make predictions. 
 
 #### Sources: 
 
