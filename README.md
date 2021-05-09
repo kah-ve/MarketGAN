@@ -17,7 +17,7 @@ Using 30 company stocks based on highest market cap as I initially planned turne
 
 -------------------------------------------------------------------------------------
 
-# Update: usage notes:
+# Update: usage notes
 
 (TODO: Replace this colab notebook with the new cleaned and updated one once that is ready.)
 #### [An Example Colab Notebook](https://github.com/kah-ve/MarketGAN/blob/master/Stock_Market_GAN_11_29_(s%26p_500%2C_50k_epochs%2C_20_history%2C_5_days_ahead%2C_1_pct_change).ipynb) 
