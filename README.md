@@ -81,7 +81,7 @@ The comments explain the steps you need to take. With some minor changes you can
 
 Note: Alphavantage has a limit of 500 requests per day and also 6 per minute for its free service.
 
-5. Run the code until the section called [***Change the names of the files in the deployed_model folder***](https://colab.research.google.com/drive/1eSjgfS2lEjEZiD4BRvuK2l9GlNFjfNGR#scrollTo=3lPwUmniYB2k&line=1&uniqifier=1). Select the models you want to use from XGB, CNN, and GAN and place them into the deployed_model folder. Run this cell to rename them and prepare them to be used for predictions.
+5. Run the code until the section called **Change the names of the files in the deployed_model folder**. Select the models you want to use from XGB, CNN, and GAN and place them into the deployed_model folder. Run this cell to rename them and prepare them to be used for predictions.
 
 #### **Note:** When training the GAN or CNN models, the training will pick up from where it left off. The model will save every 10,000 steps (by default. you can modify this by changing the TRAINING_AMOUNT variable.) For this to work, you only need to leave the model in the models folder and it will select the latest step one and continue training. Thus, I recommend that when moving the trained models to the deployed_model folder, you do a copy and paste. The script under the heading 'Change the names of the files in the deployed_model folder' will rename the model for you once it's in the deployed_model folder (regardless of copied or not).
 
@@ -92,7 +92,7 @@ Note: Alphavantage has a limit of 500 requests per day and also 6 per minute for
 
 *   cnn models *(where trained cnn models get saved)*
 
-*   deployed_model *(This is the folder that you must MANUALLY put the trained model into after you are satisfied with the number of steps for training. XGB, CNN, and GAN models go into here. There is a script further below [here](https://colab.research.google.com/drive/1eSjgfS2lEjEZiD4BRvuK2l9GlNFjfNGR#scrollTo=3lPwUmniYB2k&line=1&uniqifier=1) which will take those files in deployed_model, rename if need be, and then use them for making predictions.)*
+*   deployed_model *(This is the folder that you must MANUALLY put the trained model into after you are satisfied with the number of steps for training. XGB, CNN, and GAN models go into here. There is a script further below which will take those files in deployed_model, rename if need be, and then use them for making predictions.)*
 *   logs *(Logs will be added here)* w/ subdirectories test and train.
 
 *   models *(The models will be added into this directory)*
