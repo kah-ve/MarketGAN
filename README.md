@@ -75,8 +75,10 @@ The comments explain the steps you need to take. With some minor changes you can
 
 ### To copy the required jupyter notebook you can do one of these as you prefer. 
 
+* Fork this repo, then go to google drive and (New -> More -> Google Colaboratory) then File -> Open Notebook -> GitHub -> pass in the url of the notebook in your own repo.
+* Clone this repo or clone your fork of it, then open new google colab notebook in google drive (New -> More -> Google Colaboratory). Then upload the notebook by File -> Open Notebook -> Upload -> Select the jupyter notebook you cloned from this repo.
 * Open a new google colab in google drive (New -> More -> Google Colaboratory) then File -> Open Notebook -> GitHub -> Pass in the URL of the Notebook in this repo. [URL](https://github.com/kah-ve/MarketGAN/blob/master/Stock_Market_GAN_(s%26p_500_companies%2C_50k_epochs%2C_20_historical_days%2C_predict_5_days_ahead%2C_1_percent_change).ipynb)
-* Clone this repo, then open new google colab notebook in google drive (New -> More -> Google Colaboratory). Then upload the notebook by File -> Open Notebook -> Upload -> Select the jupyter notebook you cloned from this repo.
+
 
 ### Instructions for getting the notebook running:
 
