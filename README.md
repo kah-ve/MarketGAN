@@ -95,9 +95,7 @@ Note: Alphavantage has a limit of 500 requests per day and also 6 per minute for
 *   cnn models *(where trained cnn models get saved)*
 
 *   deployed_model *(This is the folder that you must MANUALLY put the trained model into after you are satisfied with the number of steps for training. XGB, CNN, and GAN models go into here. There is a script further below [here](https://colab.research.google.com/drive/1eSjgfS2lEjEZiD4BRvuK2l9GlNFjfNGR#scrollTo=3lPwUmniYB2k&line=1&uniqifier=1) which will take those files in deployed_model, rename if need be, and then use them for making predictions.)*
-*   logs *(Logs will be added here)*
-  *   test
-  *   train
+*   logs *(Logs will be added here)* w/ subdirectories test and train.
 
 *   models *(The models will be added into this directory)*
 
