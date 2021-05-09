@@ -1,6 +1,8 @@
 # MarketGAN
 #### Implementing a Generative Adversarial Network (GAN) on the stock market through a pipeline on Google Colab. Data used from 500 Companies from S&P500, downloaded by Alpha Vantage, and trained using a 3-Layer Dense Network as the Generator and a 3-Layer Convolutional Neural Network as the Discriminator.
 
+Update 05/09/2021: Updated the notebook to remove deprecated functions, removed some code clutter, added instructions, updated stock data to sort correctly from newest to oldest to avoid biased training, and updated readme with extra instructions below.
+
 #### Abstract
 
 Neural networks have been advancing in capability very rapidly in recent years. One of the newest techniques with these networks is Generative Adversarial Networks. In this GAN architecture you have two neural networks pitted against each other, one trying to fool the other with noise, while the other trains on real data and responds with information on how to make that noise more realistic. After many runs, you would ideally be able to generate data that the other network wouldn't know was real or fake. We aim to implement this powerful method in the modeling of time series data, with our current medium being the stock market. A GAN that is able to work well with time series data, especially chaotic ones such as the market, would be very useful in many other areas. One is finance where you can better predict the risk in an investment, but another application might be in effectively anonymizing private sensitive data. A lot of data today is not shared because of confidentiality, so being able to generate accurate synthetic versions without loss of information would be useful.
