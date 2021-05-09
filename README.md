@@ -17,13 +17,11 @@ Using 30 company stocks based on highest market cap as I initially planned turne
 
 ![Results](https://github.com/kah-ve/MarketGAN/blob/master/GANResults.PNG) 
 
-(TODO: Add a screenshot of the model predicting a buy or sell for specific stocks)
 -------------------------------------------------------------------------------------
 
 # Update: usage notes
 
-(TODO: Replace this colab notebook with the new cleaned and updated one once that is ready.)
-#### [An Example Colab Notebook](https://github.com/kah-ve/MarketGAN/blob/master/Stock_Market_GAN_11_29_(s%26p_500%2C_50k_epochs%2C_20_history%2C_5_days_ahead%2C_1_pct_change).ipynb) 
+#### [Colab Notebook: Stock Market GAN (s&p 500 companies, 50k epochs, 20 historical days, predict 5 days ahead, 1 percent change).ipynb](https://github.com/kah-ve/MarketGAN/blob/master/Stock_Market_GAN_(s%26p_500_companies%2C_50k_epochs%2C_20_historical_days%2C_predict_5_days_ahead%2C_1_percent_change).ipynb) 
 There are step-by-step instructions below that explain how to use the notebook. The first cell of the notebook also has markdown that covers these steps. Furthermore, you can find explanations in the cell comments as well for extra details.
 
 This google colab will take several hours to run (even with Google's provided GPU). Downloading all the stock data for the 500 companies in S&P can take 2-3 hours by itself.
@@ -68,7 +66,7 @@ The comments explain the steps you need to take. With some minor changes you can
 
 ### To copy the required jupyter notebook you can do one of these as you prefer. 
 
-* Open a new google colab in google drive (New -> More -> Google Colaboratory) then File -> Open Notebook -> GitHub -> Pass in the URL of the Notebook in this repo. (TODO: Add the url link here)
+* Open a new google colab in google drive (New -> More -> Google Colaboratory) then File -> Open Notebook -> GitHub -> Pass in the URL of the Notebook in this repo. [URL](https://github.com/kah-ve/MarketGAN/blob/master/Stock_Market_GAN_(s%26p_500_companies%2C_50k_epochs%2C_20_historical_days%2C_predict_5_days_ahead%2C_1_percent_change).ipynb)
 * Clone this repo, then open new google colab notebook in google drive (New -> More -> Google Colaboratory). Then upload the notebook by File -> Open Notebook -> Upload -> Select the jupyter notebook you cloned from this repo.
 
 ### Instructions for getting the notebook running:
