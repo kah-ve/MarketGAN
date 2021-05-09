@@ -17,6 +17,8 @@ Using 30 company stocks based on highest market cap as I initially planned turne
 
 ![Results](https://github.com/kah-ve/MarketGAN/blob/master/GANResults.PNG) 
 
+
+
 -------------------------------------------------------------------------------------
 
 # Update: usage notes
@@ -31,6 +33,13 @@ Then depending on the parameters you are using for training the models, the trai
 ### What results do I get from this?
 
 This project was mostly to help me get familiar with GANs. I modified the code so that it can run on Google Colab in a very streamlined way with the parameters that I'd like. I think this is a great way to get familiar with GANs and the training process. This code will output a confusion matrix that shows the prediction accuracy rates overall and at the end there is code that will use the model to output predictions for each stock.
+
+An example of this. (This is for a model trained with the notebook provided for 1pct changes. It predicts a great deal of stocks increasing in price by 1pct)
+![Specific Stock Predictions](https://github.com/kah-ve/MarketGAN/blob/master/specificstockpredictions.PNG)
+
+You can see the confusion matrix for this model in the notebook provided:
+![Confusion Matrix of New Notebook](https://github.com/kah-ve/MarketGAN/blob/master/20historydays%2C5daysprediction%2C1pctchange.PNG)
+
 
 ### How does it work?
 
@@ -105,6 +114,9 @@ Note: Alphavantage has a limit of 500 requests per day and also 6 per minute for
 
 
 *   stockmarketGan.ipynb *(this is this google colab document)*
+
+An image of how it will look.
+![Folder structure](https://github.com/kah-ve/MarketGAN/blob/master/GoogleDriveFolderSetup.PNG)
 
 
 # MISC Notes
