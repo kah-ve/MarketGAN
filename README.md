@@ -15,6 +15,7 @@ Using 30 company stocks based on highest market cap as I initially planned turne
 
 ![Results](https://github.com/kah-ve/MarketGAN/blob/master/GANResults.PNG) 
 
+(TODO: Add a screenshot of the model predicting a buy or sell for specific stocks)
 -------------------------------------------------------------------------------------
 
 # Update: usage notes
@@ -29,7 +30,7 @@ Then depending on the parameters you are using for training the models, the trai
 
 ### What results do I get from this?
 
-This project was mostly to help me get familiar with GANs. I modified the code so that it can run on Google Colab in a very streamlined way with the parameters that I'd like. I think this is a great way to get familiar with GANs and the training process. This code will output a confusion matrix that shows the prediction accuracy rates overall and at the end there is code that will use the model to output predictions for a specific stock.
+This project was mostly to help me get familiar with GANs. I modified the code so that it can run on Google Colab in a very streamlined way with the parameters that I'd like. I think this is a great way to get familiar with GANs and the training process. This code will output a confusion matrix that shows the prediction accuracy rates overall and at the end there is code that will use the model to output predictions for each stock.
 
 ### How does it work?
 
