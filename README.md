@@ -25,7 +25,7 @@ There are step-by-step instructions below that explain how to use the notebook. 
 
 This google colab will take several hours to run (even with Google's provided GPU). Downloading all the stock data for the 500 companies in S&P can take 2-3 hours by itself.
 
-Then depending on the parameters you are using for training the models, the training can take some more hours more.
+Then depending on the parameters you are using for training the models, the training can take some hours more.
 
 ### What results do I get from this?
 
