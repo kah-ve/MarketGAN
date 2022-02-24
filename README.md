@@ -1,7 +1,10 @@
 # MarketGAN
 #### Implementing a Generative Adversarial Network (GAN) on the stock market through a pipeline on Google Colab. Data used from 500 Companies from S&P500, downloaded by Alpha Vantage, and trained using a 3-Layer Dense Network as the Generator and a 3-Layer Convolutional Neural Network as the Discriminator.
 
+Follow the instructions below and you can get an easy to use google colab up and training. Then you can modify and use it as a playground as you'd like.
+
 Update 05/09/2021: Updated the notebook to remove deprecated functions, removed some code clutter, added instructions, updated stock data to sort correctly from newest to oldest to avoid biased training, and updated readme with extra instructions below. The notebook runs from start to finish without issues as of today. Tensorflow is an evolving library and things may become deprecated and fail in the future but I'll try to keep this working. Let me know if it isn't.
+
 
 #### Abstract
 
